@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Exec=./login_capf.sh
+Hidden=false
+NoDisplay=false
+X-GNOME-Autostart-enabled=true
+Name[ja_JP]=auto chrome
+Name=auto chrome
+Comment[ja_JP]=./login_capf.sh
+Comment=./capf_login.sh

@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Exec=./launch_client.sh
+Hidden=false
+NoDisplay=false
+X-GNOME-Autostart-enabled=true
+Name[ja_JP]=auto client
+Name=auto client
+Comment[ja_JP]=./launch_client.sh
+Comment=./launch_client.sh

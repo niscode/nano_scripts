@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Exec=./get_input.sh
+Hidden=false
+NoDisplay=false
+X-GNOME-Autostart-enabled=true
+Name[ja_JP]=set input device
+Name=set input device
+Comment[ja_JP]=./get_input.sh
+Comment=./get_input.sh

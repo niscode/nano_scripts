@@ -6,8 +6,11 @@
 from selenium import webdriver
 import chromedriver_binary
 from selenium.webdriver.common.by import By
+from selenium.webdriver.support.ui import Select
+
 import time
 import argparse
+import sys
 
 parser = argparse.ArgumentParser(description='引数にLogin IDを指定せよ')
 parser.add_argument('id', default="1", help='Set Login ID number for CAPF')
@@ -49,7 +52,7 @@ except:
 try:
 	Select(driver.find_element(By.XPATH, '//*[@id="deviceIdSpk"]')).select_by_visible_text(output_device1)
 except:
-	try: 
+	try:
 		Select(driver.find_element(By.XPATH, '//*[@id="deviceIdSpk"]')).select_by_visible_text(output_device2)
 	except:
 		Select(driver.find_element(By.XPATH, '//*[@id="deviceIdSpk"]')).select_by_visible_text(output_device3)
@@ -71,3 +74,4 @@ while True:
 
 # クロームの終了処理
 driver.close()
+sys.exit(1)

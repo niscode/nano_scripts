@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Exec=./gitpull_scripts.sh
+Hidden=false
+NoDisplay=false
+X-GNOME-Autostart-enabled=true
+Name[ja_JP]=git pull
+Name=git pull
+Comment[ja_JP]=./gitpull_scripts.sh
+Comment=./gitpull_scripts.sh

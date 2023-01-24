@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Exec=./run_chimeSwitch.sh
+Hidden=false
+NoDisplay=false
+X-GNOME-Autostart-enabled=true
+Name[ja_JP]=auto chime
+Name=auto chime
+Comment[ja_JP]=./run_chimeSwitch.sh
+Comment=./run_chimeSwitch.sh

@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Exec=./get_output.sh
+Hidden=false
+NoDisplay=false
+X-GNOME-Autostart-enabled=true
+Name[ja_JP]=set output device
+Name=set output device
+Comment[ja_JP]=./get_output.sh
+Comment=./get_output.sh

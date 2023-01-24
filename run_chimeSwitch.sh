@@ -12,7 +12,7 @@ do
   if [ $count = 0 ]; then
     echo "[-]chimeSwitch Process Down  -----"
     echo "[+]chimeSwitch Process Start +++++"
-    echo 'capf' | sudo -S python3 ~/nano-scripts/keyboard_ChimeSwitch.py CA000 ignis2-sock.ca-platform.org 11001 CA010
+    echo 'capf' | sudo -S python3 ~/nano_scripts/keyboard_ChimeSwitch.py CA000 ignis2-sock.ca-platform.org 11001 CA010
 
   else
     echo "[+]chimeSwitch Process OK    +++++"
