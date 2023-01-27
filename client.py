@@ -1,5 +1,5 @@
 # coding: utf-8
-# 【latest】2022-08-26 created by Imura-san
+# 【latest】 2022-08-26 created by Imura-san
 
 import sys
 import socket
