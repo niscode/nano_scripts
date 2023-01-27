@@ -3,13 +3,13 @@
 
 count=`ps -ef | grep sudo | grep -v grep | wc -l`
 # echo $count
-is_work=false
+is_work=true
 
 while true
 do
-  # 起動〜 30秒後に実行
+  # 起動〜 10秒後に実行
   echo "Please wait for 10 sec ..."
-  sleep 30
+  sleep 10
   # sudoプロセスを監視
   if "$is_work" && [ $count = 0 ]; then
     echo "[-]chimeSwitch Process Down  -----"
@@ -24,7 +24,7 @@ do
     if ! "$is_work" && [ $count = 1 ]; then
       pid=`ps -ax | grep sudo | grep keyboard | awk '{ print $1 }'`
       echo 'capf' | sudo -S kill -9 $pid
-      echo "プロセスを強制キルした。30秒後復帰に入る。"
+      echo "プロセスを強制キルした。10秒後復帰に入る。"
     fi
     is_work=true
   fi
